@@ -4,7 +4,7 @@ import "../css/Pantalla.css";
 const Pantalla = ({ input }) => <div className="input">{input}</div>;
 
 Pantalla.propTypes = {
-  input: PropTypes.string,
+  input: PropTypes.number,
 };
 
 export default Pantalla;
